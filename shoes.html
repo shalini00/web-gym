@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANKLE</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <style>
+        /* body {
+            background: url(img/bg6.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-size: cover;
+            height: 100vh;
+
+        } */
+
+        header::before{
+            content: "";
+            background: url('img/bg6.jpg') no-repeat center center/cover ;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 1;
+        }
+
+        .header {
+            position: absolute;
+            top: 150px;
+        }
+
+        .container {
+            border: 2px solid rgb(156, 153, 153);
+            display: flex;
+            background-color: rgb(117, 116, 116);
+            flex-direction: column;
+            height: 500px;
+            width: 12.5vw;
+            align-items: center;
+        }
+
+        #nav1 {
+            font-size: 50px;
+            padding: 4px;
+            margin: 55px;
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            color: black;
+
+
+        }
+
+        .navbar li a:hover {
+            text-decoration: underline;
+            color: white;
+
+
+        }
+
+        .navbar .class {
+            /* padding: 2px 50px; */
+            margin: 8px
+        }
+
+        .search {
+            position: absolute;
+            right: 18px;
+            top: 68px;
+            /* border: 1px solid rgb(58, 57, 57);
+            border-radius: 5px;
+            padding: 25px;*/
+        }
+
+        .mid{
+            /* text-align: center; */
+            font-size: 80px;
+            color: rgb(182, 137, 121);
+            font-family: 'Baloo Bhai 2', cursive;
+
+        }
+
+         .link{
+            
+            position: relative;
+            top: 115px;
+             /* margin: 2px; */
+             /* padding: 2px; */
+            text-align: center;
+        }
+
+         .link a{
+            text-decoration: none;
+            background-color: rgb(158, 105, 105);
+            border: 1px solid black;
+            border-radius: 5px;
+            color: black;
+            font-size: 15px;
+            margin: 2px;
+            padding: 2px;
+            
+        } 
+    </style>
+</head>
+
+
+<body>
+    <header>
+        <div class="mid">
+            Choose what your Sole likes!!!
+        </div>
+    </header>
+    <div class="header">
+
+        <div class="container">
+            <div class="top" id="nav1">
+                aNKLe
+            </div>
+
+            <div class="top" id="nav2">
+                <ul type="none" class="navbar">
+                    <li class="class"><a href="#">Home</a></li>
+                    <li class="class"><a href="#">Shop</a></li>
+                    <li class="class"><a href="#">Latest</a></li>
+                    <li class="class"><a href="#">About Us</a></li>
+                </ul>
+            </div>
+
+            <div class="top">
+                <a class="link" href="https://facebook.com" target="_blank">Join us on facebook</a> <br><br>
+                <a class="link" href="https://twitter.com" target="_blank">Join us on twitter</a> 
+            </div>
+
+        </div>
+
+    </div>
+    <div class="search">
+        <input type="text" name="search" id="search" placeholder="search this website">
+    </div>
+</body>
+
+</html>
